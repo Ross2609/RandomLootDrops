@@ -1,0 +1,218 @@
+{
+    "type": "minecraft:chest",
+    "pools": [{
+        "rolls": 1,
+        "entries": [{
+                "type": "item",
+                "name": "minecraft:netherite_helmet",
+                "weight": 1
+            },
+            {
+                "type": "item",
+                "name": "minecraft:netherite_chestplate",
+                "weight": 1
+            },
+            {
+                "type": "item",
+                "name": "minecraft:netherite_leggings",
+                "weight": 1
+            },
+            {
+                "type": "item",
+                "name": "minecraft:netherite_boots",
+                "weight": 1
+            },
+            {
+                "type": "item",
+                "name": "minecraft:netherite_sword",
+                "weight": 1
+            },
+            {
+                "type": "item",
+                "name": "minecraft:netherite_axe",
+                "weight": 1
+            },
+            {
+                "type": "item",
+                "name": "minecraft:netherite_pickaxe",
+                "weight": 1
+            },
+            {
+                "type": "item",
+                "name": "minecraft:diamond_helmet",
+                "weight": 2
+            },
+            {
+                "type": "item",
+                "name": "minecraft:diamond_chestplate",
+                "weight": 2
+            },
+            {
+                "type": "item",
+                "name": "minecraft:diamond_leggings",
+                "weight": 2
+            },
+            {
+                "type": "item",
+                "name": "minecraft:diamond_boots",
+                "weight": 2
+            },
+            {
+                "type": "item",
+                "name": "minecraft:diamond_sword",
+                "weight": 2
+            },
+            {
+                "type": "item",
+                "name": "minecraft:diamond_axe",
+                "weight": 2
+            },
+            {
+                "type": "item",
+                "name": "minecraft:diamond_pickaxe",
+                "weight": 2
+            },
+            {
+                "type": "tag",
+                "name": "music_discs",
+                "weight": 3
+            }
+        ]
+    }, {
+        "rolls": 2,
+        "entries": [
+            {
+                "type": "item",
+                "name": "minecraft:cooked_beef",
+                "weight": 1,
+                "functions": [
+                  {
+                    "function": "lootdrops:increase_stack_food"
+                  }
+                ]
+            },
+            {
+                "type": "item",
+                "name": "minecraft:cooked_chicken",
+                "weight": 1,
+                "functions": [
+                  {
+                    "function": "lootdrops:increase_stack_food"
+                  }
+                ]
+            },
+            {
+                "type": "item",
+                "name": "minecraft:bread",
+                "weight": 2,
+                "functions": [
+                  {
+                    "function": "lootdrops:increase_stack_food"
+                  }
+                ]
+            },
+            {
+                "type": "item",
+                "name": "minecraft:cooked_beef",
+                "weight": 1,
+                "functions": [
+                  {
+                    "function": "lootdrops:increase_stack_food"
+                  }
+                ]
+            }
+        ]
+    },{
+        "rolls": 2,
+        "entries": [{
+            "type": "item",
+            "name": "minecraft:iron_ingot",
+            "weight": 12,
+            "functions": [
+                {
+                    "function": "lootdrops:increase_stack_resource_common"
+                }
+            ]
+        },{
+            "type": "item",
+            "name": "minecraft:gold_ingot",
+            "weight": 8,
+            "functions": [
+                {
+                    "function": "lootdrops:increase_stack_resource_common"
+                }
+            ]
+        },{
+            "type": "item",
+            "name": "minecraft:diamond",
+            "weight": 2,
+            "functions": [
+                {
+                    "function": "lootdrops:increase_stack_resource_rare"
+                }
+            ]
+        },{
+            "type": "item",
+            "name": "minecraft:emerald",
+            "weight": 4,
+            "functions": [
+                {
+                    "function": "lootdrops:increase_stack_resource_rare"
+                }
+            ]
+        },{
+            "type": "item",
+            "name": "minecraft:netherite_ingot",
+            "weight": 1,
+            "functions": [
+                {
+                    "function": "lootdrops:increase_stack_resource_x_rare"
+                }
+            ]
+        }]
+    }, {
+        "rolls": 5,
+        "entries": [
+            {
+                "type": "tag",
+                "name": "logs_that_burn",
+                "weight": 3,
+                "functions": [
+                    {
+                        "function": "lootdrops:increase_stack_resource_common"
+                    }
+                ]
+            },
+            {
+                "type": "tag",
+                "name": "freeze_immune_wearables",
+                "weight": 1
+            },
+            {
+                "type": "tag",
+                "name": "creeper_igniters",
+                "weight": 1
+            },
+            {
+                "type": "tag",
+                "name": "coals",
+                "weight": 2,
+                "functions": [
+                    {
+                        "function": "lootdrops:increase_stack_resource_common"
+                    }
+                ]
+            },
+            {
+                "type": "tag",
+                "name": "freeze_immune_wearables",
+                "weight": 1,
+                "functions": [
+                    {
+                        "function": "lootdrops:increase_stack_resource_common"
+                    }
+                ]
+            },
+        ]
+    }]
+}

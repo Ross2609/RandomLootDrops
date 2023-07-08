@@ -1,0 +1,2 @@
+lootdrops:increase_stack_food
+loot modify set_count random_range 10 20
