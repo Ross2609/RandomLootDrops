@@ -1,2 +1,3 @@
-lootdrops:timer
-schedule function lootdrops:generate_loot_drops 0t 0t 30m
+schedule function lootdrops:generate_loot_drops 1800s append
+schedule function lootdrops:generate_loot_drops 3600s append
+schedule function lootdrops:generate_loot_drops 5400s append

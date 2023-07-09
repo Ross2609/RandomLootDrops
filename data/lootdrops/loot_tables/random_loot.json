@@ -24,21 +24,6 @@
             },
             {
                 "type": "item",
-                "name": "minecraft:netherite_sword",
-                "weight": 1
-            },
-            {
-                "type": "item",
-                "name": "minecraft:netherite_axe",
-                "weight": 1
-            },
-            {
-                "type": "item",
-                "name": "minecraft:netherite_pickaxe",
-                "weight": 1
-            },
-            {
-                "type": "item",
                 "name": "minecraft:diamond_helmet",
                 "weight": 2
             },
@@ -58,6 +43,31 @@
                 "weight": 2
             },
             {
+                "type": "tag",
+                "name": "minecraft:music_discs",
+                "weight": 3,
+                "expand": true
+            }
+        ]
+    }, {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "name": "minecraft:netherite_sword",
+                "weight": 1
+            },
+            {
+                "type": "item",
+                "name": "minecraft:netherite_axe",
+                "weight": 1
+            },
+            {
+                "type": "item",
+                "name": "minecraft:netherite_pickaxe",
+                "weight": 1
+            },
+            {
                 "type": "item",
                 "name": "minecraft:diamond_sword",
                 "weight": 2
@@ -71,148 +81,157 @@
                 "type": "item",
                 "name": "minecraft:diamond_pickaxe",
                 "weight": 2
-            },
-            {
-                "type": "tag",
-                "name": "music_discs",
-                "weight": 3
             }
         ]
     }, {
         "rolls": 2,
-        "entries": [
-            {
+        "entries": [{
                 "type": "item",
                 "name": "minecraft:cooked_beef",
                 "weight": 1,
-                "functions": [
-                  {
-                    "function": "lootdrops:increase_stack_food"
-                  }
-                ]
+                "functions": [{
+                    "function": "set_count",
+                    "count": {
+                        "min": 5,
+                        "max": 12
+                    }
+                }]
             },
             {
                 "type": "item",
                 "name": "minecraft:cooked_chicken",
                 "weight": 1,
-                "functions": [
-                  {
-                    "function": "lootdrops:increase_stack_food"
-                  }
-                ]
+                "functions": [{
+                    "function": "set_count",
+                    "count": {
+                        "min": 5,
+                        "max": 12
+                    }
+                }]
             },
             {
                 "type": "item",
                 "name": "minecraft:bread",
                 "weight": 2,
-                "functions": [
-                  {
-                    "function": "lootdrops:increase_stack_food"
-                  }
-                ]
+                "functions": [{
+                    "function": "set_count",
+                    "count": {
+                        "min": 5,
+                        "max": 12
+                    }
+                }]
             },
             {
                 "type": "item",
                 "name": "minecraft:cooked_beef",
                 "weight": 1,
-                "functions": [
-                  {
-                    "function": "lootdrops:increase_stack_food"
-                  }
-                ]
+                "functions": [{
+                    "function": "set_count",
+                    "count": {
+                        "min": 5,
+                        "max": 12
+                    }
+                }]
             }
         ]
-    },{
+    }, {
         "rolls": 2,
         "entries": [{
             "type": "item",
             "name": "minecraft:iron_ingot",
             "weight": 12,
-            "functions": [
-                {
-                    "function": "lootdrops:increase_stack_resource_common"
+            "functions": [{
+                "function": "set_count",
+                "count": {
+                    "min": 5,
+                    "max": 12
                 }
-            ]
-        },{
+            }]
+        }, {
             "type": "item",
             "name": "minecraft:gold_ingot",
             "weight": 8,
-            "functions": [
-                {
-                    "function": "lootdrops:increase_stack_resource_common"
+            "functions": [{
+                "function": "set_count",
+                "count": {
+                    "min": 5,
+                    "max": 12
                 }
-            ]
-        },{
+            }]
+        }, {
             "type": "item",
             "name": "minecraft:diamond",
             "weight": 2,
-            "functions": [
-                {
-                    "function": "lootdrops:increase_stack_resource_rare"
+            "functions": [{
+                "function": "set_count",
+                "count": {
+                    "min": 2,
+                    "max": 5
                 }
-            ]
-        },{
+            }]
+        }, {
             "type": "item",
             "name": "minecraft:emerald",
             "weight": 4,
-            "functions": [
-                {
-                    "function": "lootdrops:increase_stack_resource_rare"
+            "functions": [{
+                "function": "set_count",
+                "count": {
+                    "min": 2,
+                    "max": 5
                 }
-            ]
-        },{
+            }]
+        }, {
             "type": "item",
             "name": "minecraft:netherite_ingot",
             "weight": 1,
-            "functions": [
-                {
-                    "function": "lootdrops:increase_stack_resource_x_rare"
+            "functions": [{
+                "function": "set_count",
+                "count": {
+                    "min": 1,
+                    "max": 2
                 }
-            ]
+            }]
         }]
     }, {
         "rolls": 5,
-        "entries": [
-            {
+        "entries": [{
                 "type": "tag",
                 "name": "logs_that_burn",
                 "weight": 3,
-                "functions": [
-                    {
-                        "function": "lootdrops:increase_stack_resource_common"
+                "functions": [{
+                    "function": "set_count",
+                    "count": {
+                        "min": 5,
+                        "max": 12
                     }
-                ]
-            },
-            {
-                "type": "tag",
-                "name": "freeze_immune_wearables",
-                "weight": 1
-            },
-            {
-                "type": "tag",
-                "name": "creeper_igniters",
-                "weight": 1
-            },
-            {
-                "type": "tag",
-                "name": "coals",
-                "weight": 2,
-                "functions": [
-                    {
-                        "function": "lootdrops:increase_stack_resource_common"
-                    }
-                ]
+                }],
+                "expand": true
             },
             {
                 "type": "tag",
                 "name": "freeze_immune_wearables",
                 "weight": 1,
-                "functions": [
-                    {
-                        "function": "lootdrops:increase_stack_resource_common"
-                    }
-                ]
+                "expand": true
             },
+            {
+                "type": "tag",
+                "name": "creeper_igniters",
+                "weight": 1,
+                "expand": true
+            },
+            {
+                "type": "tag",
+                "name": "coals",
+                "weight": 2,
+                "functions": [{
+                    "function": "set_count",
+                    "count": {
+                        "min": 5,
+                        "max": 12
+                    }
+                }],
+                "expand": true
+            }
         ]
     }]
 }
